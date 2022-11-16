@@ -1,0 +1,93 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <p>Nombre del cliente</p>
+      <input type="text" />
+      <br />
+      <label for="material">Material de la caja</label>
+      <select name="lenguajes" id="material">
+        <option value="Madera">Madera</option>
+        <option value="Cartón">Cartón</option>
+        <option value="Plástico">Plástico</option>
+      </select>
+
+      <p>Seleccione una dimensiones para la caja</p>
+
+      <input type="radio" id="Diminuta" value="Diminuta" />
+      <label for="size">Diminuta</label><br />
+
+      <input type="radio" id="Mediano" value="Mediano" />
+      <label for="Mediano">Mediano</label><br />
+
+      <input type="radio" id="Grande" value="Grande" />
+      <label for="Grande">Grande</label>
+
+      <p>Comentarios</p>
+      <textarea name="" id="" cols="30" rows="10"> </textarea>
+      <br />
+      <button>ENVIAR</button>
+      <button>recopilación de todos los datos</button>
+    </form>
+  </body>
+  <script src="./main.js"></script>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM_Day02</title>
+</head>
+
+<body>
+
+    <p>Nombre del cliente:<br>
+        <input type="text" class="customer">
+    </p>
+    <p>Material de la caja:
+        <select name="" id="materials">
+            <option value="Madera">Madera</option>
+            <option value="Cartón">Cartón</option>
+            <option value="Plástico">Plástico</option>
+        </select>
+    </p>
+
+    <p>Seleccione unas dimensiones para la caja:
+    <div>
+        <input class="measures" type="radio" id="diminuta" value="diminuta" name="measures">
+        <label for="Diminuta">Diminuta</label>
+    </div>
+    <div>
+        <input class="measures" type="radio" id="mediano" value="mediano" name="measures">
+        <label for="mediano">Mediano</label>
+    </div>
+    <div>
+        <input class="measures" type="radio" id="grande" value="grande" name="measures">
+        <label for="grande">Grande</label>
+    </div>
+    </p>
+    <p>Comentarios:</p>
+    <textarea name="" class="comments" cols="20" rows="3"></textarea>
+    <br>
+    <p>
+        <input type="submit" class="send">
+        <input type="text" id="result" size="100">
+    </p>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
