@@ -1,9 +1,9 @@
 const customer = document.querySelector(".customer");
-const materials = document.querySelector("#materials");
+const materials = document.getElementById("materials");
 const measures = document.querySelectorAll(".measures");
 const comments = document.querySelector(".comments");
 const send = document.querySelector(".send");
-const result = document.querySelector("#result");
+const result = document.getElementById("result");
 
 send.onclick = () => {
   let customervalue = customer.value;
